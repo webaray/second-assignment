@@ -9,21 +9,36 @@
 </head>
 <body class="font-inter">
 
-    <header class="bg-[#1A0B2E] py-8">
-        <nav class="flex justify-between m-auto max-w-7xl content-center">
+    <header class="bg-[#1A0B2E] py-8 items-center">
+        <nav class="flex justify-between m-auto max-w-7xl items-center">
             <div><img src="./images/TechWave.png" alt=""></div>
             <div>
-                <ul class="sm:hidden text-white flex gap-8 align-middle text-[16px]  ">
+                <ul class=" text-white lg:flex gap-8 items-center text-[16px] hidden lg:visible ">
                     <li><a href="">About</a></li>
                     <li><a href="">Episodes</a></li>
                     <li><a href="">Host</a></li>
                 </ul>
             </div>
             <div>
-                <button class="text-white flex gap-1 bg bg-gradient-to-r from-yellow-500 from-0% via-pink-500 via-51% to-purple-500 to-100% ...  px-4 py-3 rounded-4xl">Subscribe <img src="./images/ArrowRight.svg" alt=""></button>
+                <button class="text-white hidden lg:flex gap-1 bg bg-gradient-to-r from-yellow-500 from-0% via-pink-500 via-51% to-purple-500 to-100% ...  px-4 py-3 rounded-4xl">Subscribe <img src="./images/ArrowRight.svg" alt=""></button>
             </div>
+            <div class="lg:hidden"><img src="./images/hamburger-menu.png" alt=""></div>
         </nav>
     </header>
+    <section class="bg-[url('/images/hero-bg.png')] flex justify-center m-auto items-center bg-center bg-cover h-[760px] py-28 ">
+            <div class="justify-center text-center "> 
+                <img class="w-[80%]" src="./images/Group 14.png" alt="">
+                <h1 class="text-6xl font-extrabold text-white mt-10 mb-2">TechWave</h1>
+                <p class="text-white text-[16px] mb-6">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class="flex gap-1 justify-center">
+                    <button class="gap-2 bg bg-gradient-to-r from-yellow-500 from-0% via-pink-500 via-51% to-purple-500 to-100% ...  px-5 py-3 rounded-4xl text-white flex "><img src="./images/line-md_spotify.svg" alt=""> Listen on Spotify</button>
+                    <button class="gap-2  px-5 py-3 rounded-4xl text-[#00FF88] flex text-[16px] border-2"><img src="./images/clarity_email-line.svg" alt=""> Subscribe</button>
+        
+                </div>
+            
+            </div>
+
+        </section>
     
 </body>
 </html>
